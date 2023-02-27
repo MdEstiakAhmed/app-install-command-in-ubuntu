@@ -31,7 +31,8 @@ sudo vi /etc/group
 ```
 > add user to docker group
 
-```exit
+```
+exit
 ```
 
 > from system logout and login
@@ -45,5 +46,6 @@ docker run hello-world
 ```
 
 > show all container
-```docker ps -a
+```
+docker ps -a
 ```
