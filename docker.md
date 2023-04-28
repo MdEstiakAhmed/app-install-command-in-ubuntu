@@ -45,6 +45,11 @@ docker info
 docker run hello-world
 ```
 
+> if any permission issue occur then run
+```
+sudo chmod 666 /var/run/docker.sock
+```
+
 > show all container
 ```
 docker ps -a
