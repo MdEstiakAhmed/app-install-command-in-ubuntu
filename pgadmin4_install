@@ -1,0 +1,9 @@
+user@user:~$ curl -fsSL https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/pgadmin.gpg
+
+user@user:~$ sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list'
+
+user@user:~$ sudo apt update
+
+user@user:~$ sudo apt install pgadmin4 -y
+
+user@user:~$ sudo /usr/pgadmin4/bin/setup-web.sh
