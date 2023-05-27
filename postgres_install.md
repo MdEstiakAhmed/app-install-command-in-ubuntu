@@ -32,13 +32,13 @@ sudo -i -u postgres
 ```
 
 
-postgres@user:~$ 
+`postgres@user:~$`
 
 ```
 psql
 ```
 
-postgres=# 
+`postgres=#`
 ```
 create user testuser with password '12345';
 ```
@@ -52,7 +52,7 @@ grant all privileges on database test to testuser;
 \q
 ```
 
-postgres@Estiak:~$ 
+`postgres@user:~$`
 ```
 exit
 ```
