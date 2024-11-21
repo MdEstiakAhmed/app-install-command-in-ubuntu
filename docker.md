@@ -26,13 +26,10 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
-```
-sudo vi /etc/group
-```
 > add user to docker group
 
 ```
-exit
+sudo usermod -aG docker $USER
 ```
 
 > from system logout and login
