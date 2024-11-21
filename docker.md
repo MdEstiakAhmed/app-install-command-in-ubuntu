@@ -61,3 +61,9 @@ sudo systemctl enable containerd.service
 sudo systemctl disable docker.service
 sudo systemctl disable containerd.service
 ```
+
+
+### Docker desktop
+```
+https://docs.docker.com/desktop/setup/install/linux/ubuntu/
+```
