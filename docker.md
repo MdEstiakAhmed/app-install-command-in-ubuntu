@@ -54,3 +54,13 @@ sudo chmod 666 /var/run/docker.sock
 ```
 docker ps -a
 ```
+
+
+> docker service enable/disable while system boot (optional. ubuntu do it automatically)
+```bash
+sudo systemctl enable docker.service
+sudo systemctl enable containerd.service
+
+sudo systemctl disable docker.service
+sudo systemctl disable containerd.service
+```
